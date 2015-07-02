@@ -1,0 +1,176 @@
+* {
+	font-family: 'Arial Narrow', sans-serif;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#nav {
+	width: 100%;
+	float: left;
+	background-color: #4D4D4D;
+}
+
+#nav ul {
+	padding:0;
+	margin:0;
+	list-style: none;
+	position: relative;
+	}
+
+
+#nav li {
+	display: inline;
+	float: left;
+	color: #FFFFFF;
+	width: 150px;
+}
+
+#welcome{
+	font-size: 18px;
+	margin-right: 10px;
+	margin-top: 5px;
+	color: white;
+	font-weight: bold;
+}
+
+
+#nav li a:hover {
+	color: #191919;
+	background-color: #E6E6E6;
+}
+
+
+
+#nav  a:link, a:visited {
+	display: block;
+	padding: 8px 15px;
+	text-decoration: none;
+	text-align: center;
+	text-decoration: none;
+	line-height: 24px;
+	font-weight: bold;
+	font-size: 17px;
+	color: #FFFFFF;
+	width: 100%;
+	background-color: #4D4D4D;
+}
+
+#nav ul ul {
+	display: none;
+	position: absolute; 
+	/* has to be the same number as the "line-height" of "nav a" */
+	top: 40px; 
+	background-color: #4D4D4D;
+	width: 200px;
+}
+
+/* Display Dropdowns on Hover */
+#nav ul li:hover > ul {
+	display:inherit;
+}
+	
+/* Fisrt Tier Dropdown */
+#nav ul ul li {
+	width:200px;
+	float:none;
+	display:list-item;
+	position: relative;
+}
+
+
+#loginBtn, #regBtn{
+	margin-right: 15px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+#loginBtns{
+	float:right;
+	display: flex;
+}
+
+
+
+#filter {
+	background: #3498db;
+	width: 100%;
+}
+
+#filter_button {
+	-webkit-border-radius: 28;
+	-moz-border-radius: 28;
+	border-radius: 28px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 14px;
+	background: #ff6600;
+	padding: 5px 15px 5px 15px;
+	margin: 5px 5px;
+	text-decoration: none;
+}
+
+#filter_button:hover {
+	background: #f7863b;
+	text-decoration: none;
+}
+
+#menu {
+	width: 900px;
+	height: 200px;
+}
+
+#menu h3 {
+	color: #ffffff;
+}
+
+#menu li {
+	list-style-type: none;
+}
+
+#menu li a:link, a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+#menu col1, col2, col3 {
+	width: 300px;
+	height: 10px;
+	float: left;
+}
+
+#clear {
+	clear: both;
+}
+
+#boxes {
+	width: 100%;
+}
+
+#boxes table {
+	height: 800px;
+	width: 800px;
+}
+
+#boxes td {
+/* 	background-color: #660066; */
+	width: 200px;
+	height: 200px;
+	border: 10px solid white;
+}
+
+#boxes td img{
+	width: 200px;
+	height: 200px;
+}
+
+#remBtn,#remBtn1{
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 10px;
+  background: #ff0000;
+  padding: 1px 2px 1px 2px;
+  text-decoration: none;
+}
